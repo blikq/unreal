@@ -1,0 +1,534 @@
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    if query_file.read().find(query) != -1:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    if query_file.read().find(query) != -1:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    if query_file.read().find(query) != -1:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    if query_file.read().find(query) != -1:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    if query_file.read().find(query) != -1:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    if query_file.read().find(query) != -1:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    if query_file.read().find(query) != -1:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    if query_file.read().find(query) != -1:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    if query_file.read().find(query) != -1:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    with open(file_path, 'r') as query_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    with open(file_path, 'r') as query_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    with open(file_path, 'r') as query_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    with open(file_path, 'r') as query_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    with open(file_path, 'r') as query_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    with open(file_path, 'r') as query_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    with open(file_path, 'r') as query_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    with open(file_path, 'r') as query_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    with open(file_path, 'r') as query_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    with open(file_path, 'r') as query_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    with open(file_path, 'r') as query_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    with open(file_path, 'r') as query_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 19, in read_config
+    try:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<handle_client() done, defined at /home/blikq/python-proj/server.py:33> exception=BrokenPipeError(32, 'Broken pipe')>
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 54, in handle_client
+    thread1.start()
+  File "/usr/lib/python3.10/asyncio/selector_events.py", line 441, in sock_sendall
+    n = sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 20, in read_config
+    with open(file_path, 'r') as query_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-proj/cd'
+ERROR:root:[Errno 2] No such file or directory: '/home/blikq/python-'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 20, in read_config
+    with open(file_path, 'r') as query_file:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/blikq/python-'
+ERROR:root:[Errno 2] No such file or directory: '../client.py'
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 20, in read_config
+    with open(file_path, 'r') as query_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../client.py'
+ERROR:root:reached -a
+NoneType: None
+ERROR:root:reached -a
+NoneType: None
+ERROR:root:reached -+a
+NoneType: None
+ERROR:root:reached -a
+NoneType: None
+ERROR:root:reached -+a
+NoneType: None
+ERROR:root:reached -a
+NoneType: None
+ERROR:root:reached -+a
+NoneType: None
+ERROR:root:reached a
+NoneType: None
+ERROR:root:reached a
+NoneType: None
+ERROR:root:reached a
+NoneType: None
+ERROR:root:<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 1553), raddr=('127.0.0.1', 51516)>
+NoneType: None
+ERROR:root:<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 1553), raddr=('127.0.0.1', 51554)>
+NoneType: None
+ERROR:root:<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 1553), raddr=('127.0.0.1', 51556)>
+NoneType: None
+ERROR:root:<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 1553), raddr=('127.0.0.1', 51568)>
+NoneType: None
+ERROR:root:<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 1553), raddr=('127.0.0.1', 51570)>
+NoneType: None
+ERROR:root:<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 1554), raddr=('127.0.0.1', 50894)>
+NoneType: None
+ERROR:root:<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 1555), raddr=('127.0.0.1', 35936)>
+NoneType: None
+ERROR:root:<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 1555), raddr=('127.0.0.1', 36044)>
+NoneType: None
+ERROR:root:<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 1555), raddr=('127.0.0.1', 36054)>
+NoneType: None
+ERROR:root:<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 1555), raddr=('127.0.0.1', 36062)>
+NoneType: None
+ERROR:root:<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 1556), raddr=('127.0.0.1', 48150)>
+NoneType: None
+ERROR:root:<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 1556), raddr=('127.0.0.1', 48160)>
+NoneType: None
+ERROR:root:<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 1556), raddr=('127.0.0.1', 48192)>
+NoneType: None

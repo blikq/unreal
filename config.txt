@@ -1,0 +1,5 @@
+linuxpath=/home/blikq/python-proj/config.txt
+linuxpath=/home/blikq/python-proj/200k.txt
+linuxpath=/home/blikq/python-proj/cd
+linuxpath=/home/blikq/python-
+linuxpath=../client.py
