@@ -1,18 +1,18 @@
-import asyncio
-import socket
+# Import the threading and socket modules
 import threading
+import socket
 import logging
-import time
-from signal import signal, SIGPIPE, SIG_DFL
 
 logging.basicConfig(filename="log.txt")
 level=logging.INFO
 
-
-async def read_config(query: str, is_true: dict):
+# Define a function to read a config file and search for a query string
+def read_config(query: str, is_true: dict):
+    # Open the config file for reading, with utf-8 encoding
     with open("config.txt", 'r', encoding="utf-8") as config_file:
         # Read each line of the config file
         for line in config_file:
+            # If the line starts with the prefix "linuxpath=", process it
             if line.strip().startswith("linuxpath="):
                 # Remove the prefix "linuxpath=" and strip any whitespace
                 file_path = line.removeprefix('linuxpath=').strip()
@@ -20,60 +20,52 @@ async def read_config(query: str, is_true: dict):
                 try:
                     with open(file_path, 'r') as query_file:
                         if query_file.read().find(query) != -1:
-                            is_true.update({"is_true": "STRING EXISTS"})
-                            return None
+                            # If the query string is found, update the is_true dictionary and return
+                            return is_true.update({"is_true": "STRING EXISTS"})
                         else:
+                            # If the query string is not found, do nothing
                             pass
                 except Exception as e:
+                    # If an error occurs while opening or reading the file, log the exception (currently commented out)
                     # logging.exception(e)
                     pass
+    # If the query string is not found and no errors occurred, update the is_true dictionary with "STRING NOT FOUND"
     is_true.update({"is_true": "STRING NOT FOUND"})
 
-# thread1 = threading.Thread(target = read_config, args = ()
+# Define a function to handle a client's request
+def handle_client(client_socket):
+    # Keep processing the client's request until it closes the connection
+    while True:
+        # Read the request from the client (up to 1024 bytes)
+        request = client_socket.recv(1024)
 
-async def handle_client(client):
-    loop = asyncio.get_event_loop()
-    request = None
+        try:
+            # Initialize the is_true dictionary
+            is_true = {"is_true": False}
+            # Call the read_config function to process the request
+            read_config(str(request.decode('utf8')), is_true)
+            # Set the response to the value in the is_true dictionary
+            response = is_true["is_true"]
+        except:
+            # If an error occurs while processing the request, set the response to "Invalid Request Type"
+            response = "Invalid Request Type"
+        # Send the response back to the client
+        client_socket.send(response.encode('utf8'))
+        # Close the client's socket
+        client_socket.close()
 
-    while request != 'quit':
-        logging.exception(client)
-        # try:
-        request = (await loop.sock_recv(client, 255)).decode('utf8')
-        # except Exception as e:
-        #     logging.exception(f"execption is {e}")
-        # print(request)
-        response = str(eval(request)) + '\n'
-        is_true = {"is_true": False}
-        # read_config(str(request), is_true)
+# Create a socket for the server
+server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+# Bind the socket to localhost:8090
+server_socket.bind(("localhost", 8090))
+# Listen for up to 5 incoming connections
+server_socket.listen(5)
 
-        # thread1 = threading.Thread(target = read_config, args = (request, is_true))
-
-        # thread1.start()
-  
-        # thread1.join()
-
-        # response = eval str(is_true["is_true"]) + '\n'
-        await loop.sock_sendall(client, response.encode('utf8'))
-        logging.exception("reached c")
-    
-        # await loop.sock_sendall(client, request)
-
-    client.close()
-
-
-async def run_server():
-    signal(SIGPIPE, SIG_DFL)
-    server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server.bind(('localhost', 1556))
-    server.listen(8)
-    server.setblocking(False)
-
-    loop = asyncio.get_event_loop()
-
-    client, _ = await loop.sock_accept(server)
-    loop.create_task(handle_client(client))
-
-asyncio.run(run_server())
-
-# read_config("18;0;11;11;0;18;4;0;", is_true)
-# print(is_true["is_true"])
+# Run the server indefinitely
+while True:
+    # Accept an incoming connection
+    client_socket, client_address = server_socket.accept()
+    print(f"Received connection from {client_address}")
+    client_thread = threading.Thread(target=handle_client, args=(client_socket,))
+    client_thread.start()
+    client_thread.join()

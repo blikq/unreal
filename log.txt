@@ -532,3 +532,11 @@ ERROR:root:<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SO
 NoneType: None
 ERROR:root:<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 1556), raddr=('127.0.0.1', 48192)>
 NoneType: None
+ERROR:root:<socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 1556), raddr=('127.0.0.1', 48224)>
+NoneType: None
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished name='Task-2' coro=<handle_client() done, defined at /home/blikq/python-proj/server.py:34> exception=AttributeError("'NoneType' object has no attribute 'join'")>
+Traceback (most recent call last):
+  File "/home/blikq/python-proj/server.py", line 46, in handle_client
+    thread1.join()
+AttributeError: 'NoneType' object has no attribute 'join'
